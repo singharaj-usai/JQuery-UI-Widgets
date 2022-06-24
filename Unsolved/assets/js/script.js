@@ -58,3 +58,9 @@ $(function () {
 });
 // Add Datepicker widget here
 //
+$(function () {
+  $('#datepicker').datepicker({
+    changeMonth: true,
+    changeYear: true,
+  });
+});
